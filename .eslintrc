@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
